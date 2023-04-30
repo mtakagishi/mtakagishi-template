@@ -25,3 +25,7 @@ sphinxやthemeのバージョン変化に追随するための検証用
   * poetry add --dev sphinx-autobuild
   * poetry run sphinx-autobuild docs docs/_build
   * sphinx-autobuild.bat を作成
+* netlifyにデプロイするための整備
+  * runtime.txtを作成
+  * requirement.txtを作成
+  * netlify.tomlを作成
