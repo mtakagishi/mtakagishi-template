@@ -29,3 +29,6 @@ sphinxやthemeのバージョン変化に追随するための検証用
   * runtime.txtを作成
   * requirement.txtを作成
   * netlify.tomlを作成
+  * netlifyにてgithubと連携
+  * サイト確認
+    * https://mtakagishi-template.netlify.app/
