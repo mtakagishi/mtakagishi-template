@@ -8,3 +8,4 @@
   list
   timeline
   markdown.md
+  strike

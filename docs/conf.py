@@ -17,6 +17,8 @@ extensions = [
     "myst_parser",
     'sphinx.ext.todo',
     'sphinxcontrib.blockdiag',
+    'sphinx_sitemap',
+    'sphinxnotes.strike',
 ]
 
 templates_path = ['_templates']
@@ -53,3 +55,10 @@ todo_include_todos = True
 # blockdiag
 blockdiag_html_image_format = 'SVG'
 blockdiag_fontpath = 'docs/_static/ipaexg.ttf'
+
+# sphinx-sitemap
+html_baseurl = 'https://mtakagishi-template.netlify.app/'
+sitemap_url_scheme = "{link}"
+sitemap_locales = [None]
+
+html_extra_path = ['robots.txt', 'ads.txt']
