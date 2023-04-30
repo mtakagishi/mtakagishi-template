@@ -37,6 +37,8 @@ html_theme_options = {
     "logo": {
         "text": project,
     },
+    "github_url": "https://github.com/mtakagishi/mtakagishi-template",
+    "twitter_url": "https://twitter.com/mtakagishi",
 }
 
 source_suffix = {
