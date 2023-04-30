@@ -21,3 +21,7 @@ sphinxやthemeのバージョン変化に追随するための検証用
 * 初動確認
   * poetry shell
   * ./make.bat html
+* 確認用にsphinx-autobuild で動作確認できるように修正
+  * poetry add --dev sphinx-autobuild
+  * poetry run sphinx-autobuild docs docs/_build
+  * sphinx-autobuild.bat を作成
