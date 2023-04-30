@@ -13,7 +13,11 @@ author = 'mtakagishi'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    "myst_parser",
+    'sphinx.ext.todo',
+    'sphinxcontrib.blockdiag',
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
@@ -23,5 +27,29 @@ language = 'jp'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
 html_static_path = ['_static']
+
+html_title = project
+html_theme = "pydata_sphinx_theme"
+html_logo = "_static/logo.png"
+
+html_theme_options = {
+    "logo": {
+        "text": project,
+    },
+    "github_url": "https://github.com/mtakagishi/mtakagishi-template",
+    "twitter_url": "https://twitter.com/mtakagishi",
+}
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
+
+[extensions]
+todo_include_todos = True
+
+# blockdiag
+blockdiag_html_image_format = 'SVG'
+blockdiag_fontpath = 'docs/_static/ipaexg.ttf'

@@ -7,14 +7,21 @@ Welcome to mtakagishi-template's documentation!
 ===============================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 2
+  :caption: コンテンツ
+  :glob:
+  
+  ref/index
+  genindex
+  todos
+  about
 
+.. todo:: genindexのタイトルがindexと表記されてしまう問題を調べる
+.. todo:: timelineが継続できるかの確認
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+.. 
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
