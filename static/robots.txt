@@ -1,1 +1,2 @@
-robots 
+User-agent: *
+Sitemap: https://mtakagishi-template.netlify.app/sitemap.xml
