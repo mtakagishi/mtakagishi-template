@@ -7,7 +7,7 @@ for lang in ja en es de zh ar hi eo; do
 done
 
 # 必要なファイルをコピーする
-cp index.html docs/_build/html/
-cp robots.txt docs/_build/html/
-cp ads.txt docs/_build/html/
+cp static/index.html docs/_build/html/
+cp static/robots.txt docs/_build/html/
+cp static/ads.txt docs/_build/html/
 cp docs/_build/html/ja/sitemap.xml docs/_build/html/
