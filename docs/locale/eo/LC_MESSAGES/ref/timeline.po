@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, mtakagishi
+# This file is distributed under the same license as the mtakagishi-template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mtakagishi-template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-03 00:22+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: eo\n"
+"Language-Team: eo <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../ref/timeline.rst:2
+msgid "ダイアログテスト"
+msgstr ""
+
+#: ../../ref/timeline.rst:5
+msgid "ダイアログテスト1"
+msgstr ""
+
+#: ../../ref/timeline.rst:17
+msgid "ダイアログテスト2"
+msgstr ""
+
+#: ../../ref/timeline.rst:29
+msgid "ダイアログテスト3"
+msgstr ""
+
+#: ../../ref/timeline.rst:40
+msgid "ダイアログテスト4"
+msgstr ""
+
+#: ../../ref/timeline.rst:51
+msgid "ダイアログテスト5"
+msgstr ""
+
+#: ../../ref/timeline.rst:62
+msgid "ダイアログテスト6"
+msgstr ""
+

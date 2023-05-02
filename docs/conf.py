@@ -24,7 +24,24 @@ extensions = [
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-language = 'jp'
+language = 'ja'
+
+# Sphinx document translation with sphinx gettext feature uses these settings:
+locale_dirs = ['locale/']
+gettext_compact = False
+
+html_context = {
+    'support_languages': {
+        'ja': '日本語',
+        'en': 'English',
+        'es': 'español',
+        'de': 'Deutsch',
+        'zh': '中文',
+        'ar': 'العربية',
+        'hi': 'हिन्दी',
+        'eo': 'Esperanto',
+    }
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -41,6 +58,7 @@ html_theme_options = {
     },
     "github_url": "https://github.com/mtakagishi/mtakagishi-template",
     "twitter_url": "https://twitter.com/mtakagishi",
+    "navbar_end": ["navbar-icon-links", "language_swicher.html"],
 }
 
 source_suffix = {
@@ -58,7 +76,7 @@ blockdiag_fontpath = 'docs/_static/ipaexg.ttf'
 
 # sphinx-sitemap
 html_baseurl = 'https://mtakagishi-template.netlify.app/'
-sitemap_url_scheme = "{link}"
-sitemap_locales = [None]
+# sitemap_url_scheme = "{link}"
+# sitemap_locales = [None]
 
 html_extra_path = ['robots.txt', 'ads.txt']

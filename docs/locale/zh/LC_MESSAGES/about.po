@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, mtakagishi
+# This file is distributed under the same license as the mtakagishi-template
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mtakagishi-template \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-03 00:22+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../about.rst:2
+msgid "ABOUT"
+msgstr ""
+
+#: ../../about.rst:5
+msgid "サイトについて"
+msgstr ""
+
+#: ../../about.rst:6
+msgid "ｘｘｘｘｘｘｘｘｘｘｘｘｘｘｘｘ"
+msgstr ""
+
+#: ../../about.rst:9
+msgid "免責事項"
+msgstr ""
+
+#: ../../about.rst:10
+msgid "当サイトからのリンクで移動したサイトで提供される情報、サービス等について一切の責任を負いません。"
+msgstr ""
+
+#: ../../about.rst:13
+msgid "Google Analytics"
+msgstr ""
+
+#: ../../about.rst:14
+msgid "当サイトではアクセス解析のためにGoogle Analyticsを利用しています。"
+msgstr ""
+
+#: ../../about.rst:16
+msgid ""
+"Google Analyticsでは「Cookie」を使用し、個人を特定する情報を含まずにデータを収集します。Google "
+"Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されます。"
+msgstr ""
+
+#: ../../about.rst:18
+msgid ""
+"`プライバシー ポリシー – ポリシーと規約 – Google "
+"<https://policies.google.com/privacy?hl=ja>`_"
+msgstr ""
+
+#: ../../about.rst:21
+msgid "Amazonアソシエイト"
+msgstr ""
+
+#: ../../about.rst:22
+msgid "当サイトはamazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイト宣伝プログラムである、Amazonアソシエイト・プログラムの参加者です。"
+msgstr ""
+
+#: ../../about.rst:25
+msgid "Google Adsense"
+msgstr ""
+
+#: ../../about.rst:26
+msgid "当サイトはGoogleAdsenseに参加しています。"
+msgstr ""
+
+#: ../../about.rst:29
+msgid "The Moneytizer"
+msgstr ""
+
+#: ../../about.rst:30
+msgid ""
+"当サイトは `The Moneytizer "
+"<https://us.themoneytizer.com/&sponsor=145d85f430008add7c50469cf587a9e9#inscription>`_"
+" の広告プログラムに参加しています。"
+msgstr ""
+
+#: ../../about.rst:33
+msgid "お問合せ"
+msgstr ""
+
+#: ../../about.rst:34
+msgid "`お問合せ・ご意見・ご要望 <https://forms.gle/WJ3khhqqeNrEr8fv6>`_"
+msgstr ""
+
+#: ../../about.rst:35
+msgid "`ツイッター <https://twitter.com/mtakagishi>`_"
+msgstr ""
+
+#: ../../about.rst:38
+msgid "更新履歴"
+msgstr ""
+
+#: ../../about.rst:39
+msgid "`更新履歴 <https://github.com/mtakagishi/yurugengo/commits/main>`_"
+msgstr ""
+
