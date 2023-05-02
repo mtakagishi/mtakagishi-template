@@ -1,3 +1,3 @@
 [build]
-  publish = "docs/_build"
-  command = "sphinx-build docs docs/_build"
+  publish = "docs/_build/html"
+  command = "sphinx-build -b html docs docs/_build/html/ja -D language=ja && sphinx-build -b html docs docs/_build/html/en -D language=en &&sphinx-build -b html docs docs/_build/html/es -D language=es && sphinx-build -b html docs docs/_build/html/de -D language=de && sphinx-build -b html docs docs/_build/html/zh -D language=zh && sphinx-build -b html docs docs/_build/html/ar -D language=ar && sphinx-build -b html docs docs/_build/html/hi -D language=hi && sphinx-build -b html docs docs/_build/html/eo -D language=eo"
